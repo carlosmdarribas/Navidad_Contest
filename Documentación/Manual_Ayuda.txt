@@ -1,0 +1,43 @@
+######################################################################
+###############  Manual de usuario "Carta a los Reyes" ###############
+######################################################################
+
+El programa se encarga de guardar los regalos que se les va a enviar a los reyes magos
+El programa deberá mostrar un menú al usuario que permita hacer la carta a los reyes magos con el siguiente aspecto:
+
+	1) Añadir juguete
+	2) Eliminar juguetes
+	3) Mostrar carta
+	4) Cambiar juguetes
+	5) Enviar carta
+
+	
+Como máximo se podrán pedir 8 juguetes, el nombre de los juguetes no puede exceder los 25 caracteres.
+No se pueden añadir juguetes si ya hay 8 juguetes en la carta.
+No se pueden eliminar juguetes si no hay juguetes en la carta.
+Al mostrar la carta se mostraran los juguetes, por ejemplo:
+
+	Yoyo 
+	Play Station 4
+	Scalextric
+	Domino
+
+Cuando se deseen cambiar los juguetes, se preguntará que juguete quiere cambiar de su carta, si no existe, se volverá a mostrar la carta se volverá a preguntar.
+Mo se harán distinciones entre mayúsculas y minúsculas.
+
+Tras introducir un juguete que está en la carta se pedirá que escriba un nuevo juguete y se pondrá en el lugar que le correspondía al antiguo.
+
+
+Enviar la carta implica enviársela a los Reyes Magos, que decidirán si conceden el regalo o no, haciendo una lista de los regalos que conceden y los que no.
+En caso de que no haya regalos no se mostraran estas listas, siguiendo el ejemplo anterior:
+
+·En envio:
+	Domino
+	Scalextric
+
+·Denegados:
+	Yoyo
+	Play Station 4
+
+Tras mostrar las listas el programa mostrara un mensaje deseando felices fiestas y acabara.
+Se estará solicitando una opción hasta que el usuario introduzca la opción de enviar carta.
